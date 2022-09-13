@@ -1,0 +1,53 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: gilroy;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: #e8e7e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+}
+#card #photo{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1662850886700-4ec19bd30d11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80);
+    border-radius: 50%;
+}
+#card p{
+    padding: 10px 10px;
+    text-align: center;
+}
+#card h2,h5{
+    padding: 5px;
+}
+#card h4{
+    color: rgb(200, 38, 38);
+}
+#card p{
+    font-size: 10px;
+    opacity: .7;
+}
+#card button{
+    width: 100px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 20% solid 1px ;
+    background-color: rgba(18, 60, 230, 0.893);
+}
